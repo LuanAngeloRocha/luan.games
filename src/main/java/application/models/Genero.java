@@ -22,7 +22,7 @@ public class Genero {
     //relacionamento 
 
 
-    @OneToMany(mappedBy= "genero")
+    @OneToMany(mappedBy= "generos")
     private Set <Jogo> jogos = new HashSet<> ();
 
 
